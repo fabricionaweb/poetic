@@ -3,11 +3,9 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   extends: [
     "plugin:@typescript-eslint/recommended",
-    "airbnb",
-    "airbnb/hooks",
+    "airbnb-base",
     "prettier",
     "prettier/@typescript-eslint",
-    "prettier/react"
   ],
   parserOptions: {
     ecmaVersion: 9,
@@ -33,7 +31,6 @@ module.exports = {
     quotes: ["off"], // https://github.com/prettier/eslint-config-prettier#quotes
     "no-unexpected-multiline": "off", // https://github.com/prettier/eslint-config-prettier#no-unexpected-multiline,
     "arrow-parens": ["off"], // handled by prettier with rule 'arrowParens'
-    "react/jsx-filename-extension": [1, { extensions: [".jsx", ".tsx"] }], // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
     // https://github.com/benmosher/eslint-plugin-import/issues/1568
     "import/extensions": [
       "error",
