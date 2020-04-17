@@ -9,6 +9,7 @@ const currentDir = process.cwd();
 const sourceRootDir = path.join(__dirname, "..");
 
 const isInLocalMode = argv.local;
+const isReact = !argv.noreact;
 const shouldKeepRules = argv.keeprules;
 
 
@@ -33,7 +34,7 @@ const installConfigurationFiles = () => {
   try {
     console.log('🍊 Installing configuration files ...');
     
-    const source = path.join(sourceRootDir, 'boilerplate');
+    const source = path.join(sourceRootDir, 'boilerplate', isReact ? 'react' : 'vanilla');
 
     if (!shouldKeepRules) {
       return fse.copySync(source, currentDir);
