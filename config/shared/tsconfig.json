@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    
     /* Strict Type-Checking Options */
     "strict": false,                         /* Enable all strict type-checking options. */
     "noImplicitAny": true,                   /* Raise error on expressions and declarations with an implied 'any' type. */
@@ -19,5 +18,3 @@
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
   }
 }
-
-

@@ -1,6 +1,6 @@
 {
   /* Poetic base style configuration */
-  "extends": "./node_modules/poetic/config/typescript/tsconfig.json",
+  "extends": "./node_modules/poetic/config/shared/tsconfig.json",
   /* Add your custom configuration after this */
   "include": ["src/**/*"],
   "compilerOptions": {

@@ -1,4 +1,4 @@
-const prettierConfig = require("./prettier/.prettierrc");
+const prettierConfig = require("./shared/.prettierrc");
 
 module.exports = {
   prettierConfig
