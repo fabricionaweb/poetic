@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["./node_modules/poetic/config/vanilla/eslint-config.js"],
+  extends: ["./node_modules/poetic/config/eslint-config-vanilla.js"],
   // Add custom rules here
   rules: {}
 };

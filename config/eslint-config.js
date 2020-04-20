@@ -3,9 +3,8 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   extends: [
     "plugin:@typescript-eslint/recommended",
-    "airbnb-base",
     "prettier",
-    "prettier/@typescript-eslint",
+    "prettier/@typescript-eslint"
   ],
   parserOptions: {
     ecmaVersion: 9,
@@ -36,12 +35,12 @@ module.exports = {
       "error",
       "ignorePackages",
       {
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
+        js: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never"
       }
-    ],
+    ]
   },
   overrides: [
     {
